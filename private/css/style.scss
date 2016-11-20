@@ -19,3 +19,16 @@ $color-2: white;
 
 
 // Your SCSS goes below here
+
+.headerContainer {
+    position:fixed;
+    height:120px;
+   // background-color:red;
+    width:100%;
+    margin: 0 20% 0 20%;
+}
+
+.logo {
+    margin: 20px 0 0 20px;
+    float:left;
+}
