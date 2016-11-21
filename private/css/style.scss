@@ -23,12 +23,39 @@ $color-2: white;
 .headerContainer {
     position:fixed;
     height:120px;
-   // background-color:red;
-    width:100%;
-    margin: 0 20% 0 20%;
+    width:70%;
+    margin: 0 15% 0 15%;
+
 }
 
 .logo {
     margin: 20px 0 0 20px;
     float:left;
+    ;
+
+       
+
+}
+
+.headerItems {
+    float:right;
+    margin-top: 60px;
+    list-style-type: none;
+    
+        li {
+            float:right;
+            width:105px;
+            height:40px;
+            margin: 0px 10px 0 10px;
+        }
+
+        li a {
+            color: gray;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            display:block;
+            
+            
+       }
 }
