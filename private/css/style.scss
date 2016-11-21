@@ -24,17 +24,13 @@ $color-2: white;
     position:fixed;
     height:120px;
     width:70%;
-    margin: 0 15% 0 15%;
-
+    top:0;
+    margin:0 15% 20px 15%;
 }
 
 .logo {
-    margin: 20px 0 0 20px;
+    margin: 20px 0 0 0;
     float:left;
-    ;
-
-       
-
 }
 
 .headerItems {
@@ -55,7 +51,15 @@ $color-2: white;
             padding: 14px 16px;
             text-decoration: none;
             display:block;
-            
-            
        }
+
+}
+
+.mainContainer {
+    width:70%;
+    margin: 180px 15% 0 15%;
+
+        h1 {
+            font-size:30px;
+        }
 }
