@@ -73,3 +73,20 @@ $color-2: white;
         }
         
 }
+
+.displayContainer {
+    width:70%;
+    margin:30px auto 10px auto;
+    //text-align:center;
+    
+}
+
+.displayContent {
+    background-color:red;
+    height:200px;
+    width:calc(98%/3);
+    display:inline-block;
+    
+    
+    
+}
