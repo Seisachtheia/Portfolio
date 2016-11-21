@@ -20,22 +20,30 @@ $color-2: white;
 
 // Your SCSS goes below here
 
+html {
+    padding:0;
+    margin:0;
+    background-color:#d3d3d3;
+}
+
 .headerContainer {
     position:fixed;
     height:120px;
-    width:70%;
+    width:100%;
     top:0;
-    margin:0 15% 20px 15%;
+    //margin:0 15% 20px 15%;
+    background-color:white;
 }
 
 .logo {
-    margin: 20px 0 0 0;
+    margin: 20px 0 0 15%;
     float:left;
 }
 
 .headerItems {
     float:right;
     margin-top: 60px;
+    margin-right:15%;
     list-style-type: none;
     
         li {
@@ -47,8 +55,8 @@ $color-2: white;
 
         li a {
             color: gray;
-            text-align: center;
-            padding: 14px 16px;
+            text-align: right;
+            padding: 14px 0 14px 16px;
             text-decoration: none;
             display:block;
        }
@@ -58,7 +66,7 @@ $color-2: white;
 .mainContainer {
     width:70%;
     margin: 180px 15% 0 15%;
-
+ 
         h1 {
             font-size:30px;
         }
@@ -76,17 +84,20 @@ $color-2: white;
 
 .displayContainer {
     width:70%;
-    margin:30px auto 10px auto;
-    //text-align:center;
-    
-}
+    margin:30px auto 45px auto;
+    display: flex;
+    justify-content: space-between;
+    }
 
 .displayContent {
-    background-color:red;
-    height:200px;
-    width:calc(98%/3);
+    height:400px;
+    width:calc(95%/3);
     display:inline-block;
-    
-    
-    
+
+    img{
+        height: 350px;
+        content:contain;
+        width:100%;
+    }
+
 }
