@@ -26,7 +26,7 @@ html {
     background-color:#d3d3d3;
 }
 
-.headerContainer {
+.header-container {
     position:fixed;
     height:120px;
     width:100%;
@@ -40,7 +40,7 @@ html {
     float:left;
 }
 
-.headerItems {
+.header-items {
     float:right;
     margin-top: 60px;
     margin-right:15%;
@@ -63,7 +63,7 @@ html {
 
 }
 
-.mainContainer {
+.main-container {
     width:70%;
     margin: 180px 15% 0 15%;
  
@@ -73,23 +73,25 @@ html {
 
         a {
             text-decoration:none;
+            cursor: pointer;
         }
 
         a:visited {
             text-decoration:none;
             color:blue;
+            cursor: pointer;
         }
         
 }
 
-.displayContainer {
+.display-container {
     width:70%;
     margin:30px auto 45px auto;
     display: flex;
     justify-content: space-between;
     }
 
-.displayContent {
+.display-content {
     height:400px;
     width:calc(95%/3);
     display:inline-block;
@@ -99,5 +101,17 @@ html {
         content:contain;
         width:100%;
     }
+
+    a {
+        text-decoration:none;
+        cursor: pointer;
+    }
+    
+    a:visited {
+        text-decoration:none;
+        color:blue;
+        cursor: pointer;
+    }
+    
 
 }
