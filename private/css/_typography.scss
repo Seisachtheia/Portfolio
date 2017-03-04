@@ -36,6 +36,10 @@ hr {
      }
 }
 
+.clear {
+    clear:both;
+}
+
 // To show and hide elements for desktop / mobile
 .desktop {
     @include mappy-bp(max-width $page-width){

@@ -83,22 +83,30 @@ html {
         
 }
 
-.display-container {
+.projects {
     width:70%;
     margin:30px auto 45px auto;
-    display: flex;
-    justify-content: space-between;
-    }
+}
 
-.display-content {
+.project {
     height:400px;
-    width:calc(95%/3);
+    width:calc(92%/3);
     display:inline-block;
+    margin:0 1% 5% 1%;
+
+    .image {
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+    }
 
     img{
         height: 350px;
-        content:contain;
         width:100%;
+    }
+
+    p {
+        margin: 5px 0;
     }
 
     a {
@@ -116,17 +124,18 @@ html {
 }
 
 .about-me {
-    width:70%;
+    max-width:1024px;
     margin:25px 15% 10px 15%;
     padding: 20px;
-    background:#a8a8a8;
+    background:white;
     
     p {
         line-height: 25px;
-        font-size:18px;
-        color:white;
-        font-family:Raleway;
+        font-size:20px;
+        color:black;
+        font-family: 'PT Sans', sans-serif;
         padding: 5px 10px 5px 10px;
+        text-align:center;
 
     }
 }
