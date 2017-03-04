@@ -1,0 +1,53 @@
+
+.header-container {
+    position:relative;
+    height:120px;
+    max-width:1024px;
+    margin: 0 auto;
+    top:0;
+    background-color:white;
+
+    @media (max-width: 1024px){
+        padding: 0 3%;
+    }
+}
+
+.logo {
+    position:absolute;
+    top:5px;
+    left:0;
+    bottom:5px;
+    width:300px;
+    margin: 20px 0 0 0;
+    float:left;
+    background-image:url("../images/logo.png");
+    background-position:center left;
+    background-size:contain;
+    background-repeat:no-repeat;
+
+    @media (max-width: 1024px){
+        left: 3%;
+    }
+}
+
+.header-items {
+    float:right;
+    margin-top: 60px;
+    list-style-type: none;
+    
+        li {
+            float:right;
+            width:105px;
+            height:40px;
+            margin: 0px 10px 0 10px;
+        }
+
+        li a {
+            color: gray;
+            text-align: right;
+            padding: 14px 0 14px 16px;
+            text-decoration: none;
+            display:block;
+       }
+
+}

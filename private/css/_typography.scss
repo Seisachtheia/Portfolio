@@ -15,8 +15,12 @@ body, h1, h2, h3, h4, h5, h6, p, a, section, div, ul, li {
     -khtml-user-select: none;  
     -moz-user-select: none; 
     -ms-user-select: none;   
-    user-select: none; 
+    user-select: none;
 } 
+
+body {
+    overflow-y: scroll;
+}
 
 hr {
     background-color: $color-1;
@@ -52,5 +56,6 @@ hr {
         display: none !important;
     }
 }
+
 
 

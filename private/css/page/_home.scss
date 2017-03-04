@@ -1,0 +1,78 @@
+.main-container {
+    max-width:1024px;
+    margin: 0 auto;
+    
+    @media (max-width: 1024px){
+        padding: 0 3%;
+    }
+
+
+        h1 {
+            font-size:30px;
+        }
+
+        a {
+            text-decoration:none;
+            cursor: pointer;
+        }
+
+        a:visited {
+            text-decoration:none;
+            color:blue;
+            cursor: pointer;
+        }
+        
+}
+
+.projects {
+    max-width:1024px;
+    margin:30px auto 45px auto;
+
+    @media (max-width: 1024px){
+        padding: 0 3%;
+    }
+}
+
+.project {
+    height:400px;
+    width:100%;
+    float: left;
+    margin: 0 5px;
+
+    @media (min-width: 600px){
+        width:calc( (100% / 2) - 10px)
+    }
+
+    @media (min-width: 1024px){
+        width:calc( (100% / 3) - 10px);
+    }
+
+    .image {
+        height: 350px;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    }
+
+    img{
+        height: 350px;
+        width:100%;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+
+    a {
+        text-decoration:none;
+        cursor: pointer;
+    }
+    
+    a:visited {
+        text-decoration:none;
+        color:blue;
+        cursor: pointer;
+    }
+    
+
+}

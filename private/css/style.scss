@@ -15,7 +15,9 @@ $color-2: white;
 @import "typography";
 
 // View Imports
-//@import "home";
+@import "page/header";
+@import "page/home";
+@import "page/about";
 
 
 // Your SCSS goes below here
@@ -116,16 +118,16 @@ html {
 
 .project {
     height:400px;
-    width:calc( (100% / 3) - 10px);
+    width:100%;
     float: left;
     margin: 0 5px;
 
-    @media (max-width: 600px){
-        width:100%;
+    @media (min-width: 600px){
+        width:calc( (100% / 2) - 10px)
     }
 
-    @media (max-width: 1024px){
-        width:calc( (100% / 2) - 10px);;
+    @media (min-width: 1024px){
+        width:calc( (100% / 3) - 10px);
     }
 
     .image {
