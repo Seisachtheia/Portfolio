@@ -14,19 +14,19 @@
 
 .logo {
     position:absolute;
-    top:5px;
+    top:0px;
     left:0;
-    bottom:5px;
+    bottom:25px;
     width:300px;
-    margin: 20px 0 0 0;
-    float:left;
     background-image:url("../images/logo.png");
+    background-image:url("../images/logo.svg");
     background-position:center left;
     background-size:contain;
     background-repeat:no-repeat;
 
     @media (max-width: 1024px){
         left: 3%;
+        top: 14px;
     }
 }
 
@@ -34,12 +34,18 @@
     float:right;
     margin-top: 60px;
     list-style-type: none;
+
+    @media (max-width: 600px){
+        margin-top: 0;
+    }
     
         li {
             float:right;
-            width:105px;
-            height:40px;
-            margin: 0px 10px 0 10px;
+            margin: 0px 10px;
+
+            @media (max-width: 600px){
+                float: none;
+            }
         }
 
         li a {
@@ -48,6 +54,7 @@
             padding: 14px 0 14px 16px;
             text-decoration: none;
             display:block;
+            cursor: pointer;
        }
 
        a:hover {

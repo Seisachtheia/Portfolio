@@ -1,33 +1,33 @@
 .main-container {
     max-width:1024px;
-    margin: 0 auto;
+    margin: 80px auto 30px;
     
     @media (max-width: 1024px){
         padding: 25px 3% 0 3%;
         text-align:center;
-
+        margin: 31px auto 0px;
     }
 
+    h1 {
+        font-size:30px;
+    }
 
-        h1 {
-            font-size:30px;
-        }
+    a {
+        text-decoration:none;
+        cursor: pointer;
+        color: #666;
+        text-decoration: underline;
+    }
 
-        a {
-            text-decoration:none;
-            cursor: pointer;
-        }
-
-        a:visited {
-            text-decoration:none;
-            color:blue;
-            cursor: pointer;
-        }
+    p {
+        color: #979797;
+        line-height: 28px;
+    }
         
 }
 
 .projects {
-    max-width:1024px;
+    max-width:1054px;
     margin:30px auto 45px auto;
 
     @media (max-width: 1024px){
@@ -36,40 +36,51 @@
 }
 
 .project {
-    height:400px;
-    width:100%;
-    float: left;
-    margin: 0 5px;
+    //height: 400px;
+    //width:100%;
+    margin: 20px 0 30px;
+    
 
     @media (min-width: 600px){
-        width:calc( (100% / 2) - 10px)
+        margin: 20px 15px;
+        width:calc( (100% / 2) - 30px);
+        float: left;
     }
 
     @media (min-width: 1024px){
-        width:calc( (100% / 3) - 10px);
+        
+        width:calc( (100% / 3) - 30px);
     }
 
     .image {
-        height: 350px;
+        height: 250px;
         background-position: center;
         background-size: cover;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     }
 
-    p {
-        margin: 5px 0;
-    }
 
     a {
         text-decoration:none;
         cursor: pointer;
+        color: #979797;
+        transition: opacity .25s;
+    
+        &:visited {
+            text-decoration:none;
+            color:#979797;
+            cursor: pointer;
+        }
+
+        &:hover {
+            opacity: 0.8;
+        }
     }
     
-    a:visited {
-        text-decoration:none;
-        color:blue;
-        cursor: pointer;
-    }
     
+    h3 {
+        color: #666;
+        padding: 15px 0 5px;
+    }
 
 }
