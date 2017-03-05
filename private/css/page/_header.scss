@@ -40,11 +40,11 @@
     }
     
         li {
-            float:right;
+            display: inline-block;
             margin: 0px 10px;
 
             @media (max-width: 600px){
-                float: none;
+                display: block;
             }
         }
 
